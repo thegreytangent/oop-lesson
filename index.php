@@ -36,6 +36,10 @@
   </div>
 </nav>
 
+<div class="alert alert-success" role="alert">
+  New Student has been added!
+</div>
+
 <form action="add.php" method="POST">
 <div class="mb-3">
   <label class="form-label">ID Number:</label>
