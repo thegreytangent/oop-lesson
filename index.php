@@ -65,6 +65,30 @@
 
 </form>
 
+<br/></br>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID Number</th>
+      <th scope="col">Complete Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Birthdate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php if (isset($_SESSION['student_data'] )) :  ?>
+    <?php foreach ($_SESSION['student_data'] as $student): ?>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <?php endforeach; ?>
+    <?php endif; ?>
+  </tbody>
+</table>
 
 	</div>
 

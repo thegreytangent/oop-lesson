@@ -15,6 +15,11 @@ echo "Complete Name: " . $student->completeName();
 echo "<br/>";
 echo "birthdate: " . $student->getBirthdate();
 
+$_SESSION['student_data'] = [];
+
+
+
+
 
 //Redirect to url
 // header("location: /CastellanoJason/index.php");
