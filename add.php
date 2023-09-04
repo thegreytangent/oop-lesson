@@ -1,5 +1,5 @@
 <?php 
-// test edit
+
 $id_number = $_POST['id_number'];
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
